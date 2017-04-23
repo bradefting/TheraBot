@@ -4,8 +4,8 @@
   "description": "g36 capstone project",
   "main": "server.js",
   "dependencies": {
-    "botbuilder": "^3.7.0",
     "bluebird": "^3.4.7",
+    "botbuilder": "^3.7.0",
     "dotenv-extended": "^1.0.4",
     "restify": "^4.3.0"
   },
