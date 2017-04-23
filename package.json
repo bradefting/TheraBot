@@ -1,0 +1,27 @@
+{
+  "name": "therabot",
+  "version": "1.0.0",
+  "description": "g36 capstone project",
+  "main": "server.js",
+  "dependencies": {
+    "botbuilder": "^3.7.0",
+    "bluebird": "^3.4.7",
+    "dotenv-extended": "^1.0.4",
+    "restify": "^4.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradefting/TheraBot.git"
+  },
+  "author": "Brad Efting",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradefting/TheraBot/issues"
+  },
+  "homepage": "https://github.com/bradefting/TheraBot#readme"
+}

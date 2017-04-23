@@ -1,0 +1,144 @@
+/*remove body padding if want image to start where bar ends. recommend 70px*/
+body {
+  padding-top: 20px;
+  background-color: #f7f8f9;
+}
+
+/*.header {
+  background-color: rgba(0, 0, 0, 0.88)
+}*/
+
+
+/*/// Hero area ///*/
+.heroImage {
+  background: url(./images/hero.jpg) no-repeat center center fixed;
+  display: table;
+  height: 41em;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.heroText, a {
+  /*color: rgb(27, 156, 252);*/
+  color: rgb(247, 144, 30) !important;
+}
+
+
+/*/// Main stuff ///*/
+.shaded-rows {
+  background-color: #f1f1f1
+}
+
+img {
+    width: auto;
+    max-height: 95%;
+    /*margin: 0.2em 0;*/
+    margin: 1em 0;
+}
+
+.programs {
+  /*height: 25%;*/
+  margin: 0 20px;
+}
+
+main {
+  margin-top: -30px;
+}
+
+.push-right {
+  margin-left: 50px;
+}
+
+.push-left {
+  margin-right: 20px;
+}
+
+
+/*/// Chat stuff ///*/
+.chatBot {
+  height: 520px;
+  width: 450px;
+  position: fixed;
+  top: 12%;
+  right: 10%;
+  background-color: #fbfbfb
+}
+
+#askIcon {
+  position: fixed;
+  top: 65%;
+  right: 0%;
+}
+
+
+/*// footer //*/
+.footer {
+  margin-top: 10px;
+  height: 110px;
+}
+
+
+/*// Grow on hoover //*/
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* Pulse */
+@-webkit-keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+.hvr-pulse {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
+  -webkit-animation-name: hvr-pulse;
+  animation-name: hvr-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+
+/*h3 {
+  font-family: 'Montserrat', 'Ro'sans-serif;
+}*/

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TheraBot</title>
+  <link rel="icon" href="./images/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top header" role="navigation">
+    <div class="container-fluid">
+
+      <div class="navbar-header">
+        <!-- collapsable navbar -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <!--add logo here  -->
+        <a class="navbar-brand heroText" href="#home" id="home">TheraBot</a>
+      </div>
+
+    <div class="collapse navbar-collapse" id="navbar-collapse-main">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="heroText" id="feature"><a href="#features">Features</a></li>
+        <li class="heroText" id="aboutUs"><a href="#about">About the Bot</a></li>
+        <li class="heroText" id="technology"><a href="#technologies">Technologies</a></li>
+      </ul>
+      </div>
+      <!-- <div class="navbar-header"> -->
+    </div><!--container-fluid -->
+  </nav>
+
+    <section class="container-fluid">
+      <!--hero image  -->
+      <div class="row">
+        <div class="jumbotron heroImage">
+            <h1 class="text-center heroText">Our bot knows therapy</h1>
+            <!-- <p class="lead text-center">... and we want to help.</p> -->
+            <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p> -->
+        </div>
+      </div>
+    </section>
+
+    <main class="container-fluid">
+    <!--first row -->
+      <section >
+        <div id="features">
+          <div class="row programs shaded-rows">
+
+            <!-- <div class="col-xs-12 col-sm-4 panel panel-default"> -->
+            <div class="col-xs-12 col-sm-4">
+              <h2 class="lead text-center">theraBots Features</h2>
+              <p class="lead push-right">Some of the things theraBot can do are:</p>
+                <ul class="lead">
+                  <li>Pre-Qualify Patients for NRN program</li>
+                  <li>Display slideshow of T-Rec program</li>
+                  <li>Allow questions to be answered using easy-to-click buttons</li>
+                  <li>Allow users to exit at anytime by entering EXIT</li>
+                  <li>Allow users to end conversation anytime by entering QUIT</li>
+                </ul>
+            </div>
+
+            <div class="col-xs-12 col-sm-8">
+                <img class="img-responsive center-block" src="./images/monoski2.jpeg" alt="Andy is on the mountain again using a monoski."/>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    <!--second row -->
+      <section>
+        <div id="about">
+          <div class="row programs">
+
+            <div class="col-xs-12 col-sm-8">
+                <img class="img-responsive center-block"
+                src="./images/audi-nissen.jpg" alt="audi-nissen"/>
+            </div>
+            <!-- <div class="col-xs-12 col-sm-4 panel panel-default"> -->
+            <div class="col-xs-12 col-sm-4">
+              <h2 class="lead text-center">About the Bot</h2>
+              <p class="lead push-left">The idea to create a bot that is used to pre-qualify patients for therapy programs was Selena Efting's. Selena thought her brain and spinal cord injury hospital would benefit from having theraBot pre-qualify patients to decrease the amount of time required to review patient applications for programs like the NeuroRecovery Network (NRN) program.</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!--third row -->
+      <section>
+      <div id="testimonials">
+          <div class="row programs shaded-rows">
+
+            <!-- <div class="col-xs-12 col-sm-4 panel panel-default"> -->
+            <div class="col-xs-12 col-sm-4 ">
+                <h2 class="lead text-center">Testimonials</h2>
+                <p class="lead push-right"><em>"After my injury, I wanted to play wheelchair rugby. theraBot helped me get into the condition that I needed to be in to play competitively. I used the bot to apply for the NRN program and was pre-qualified on the spot. Thank you theraBot."</em></p>
+                <p class="lead push-right">-Theresa Miller</p>
+            </div>
+
+            <div class="col-xs-12 col-sm-8">
+                <img class="img-responsive center-block" src="./images/exoskeleton.jpeg" alt="Tony uses the exoskeleton to take a walk with his family."/>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    <div id="askIcon">
+      <img class="img-responsive hvr-pulse" src="./images/ask.png" alt="chat box">
+    </div>
+
+  </main>
+
+  <footer class="navbar navbar-inverse footer">
+    <div class="container">
+      <a href="#" class="navbar-brand heroText">theraBot</a>
+      <a href="https://www.messenger.com/t/1205958709514739" class="pull-right" target="_blank"><img src="./images/messenger-logo-white.png" alt="Facebook Messenger"></a>
+      <a href="https://www.youtube.com/watch?v=vWmQPOAuPQs" class="pull-right" target="_blank"><img src="./images/youtube-icon.png" alt="Facebook Messenger"></a>
+      <!-- <p class="navbar-text navbar-right">Created by Brad Efting. 2017</p> -->
+    </div>
+  </footer>
+
+  <div>
+    <iframe  src="https://webchat.botframework.com/embed/GalvanizeRehabBot?s=BbZ_miNtUWk.cwA.4Ws.5rCPYdsl228bVfFQ0tHod5RMWx2fo7cl_FItJWVYN7g" class="chatBot hidden"></iframe>
+  </div>
+
+    <!--jQuery for Boostrap  -->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+  <!--Script to JS  -->
+  <script type="text/javascript" src="script.js"></script>
+
+  <!--bootstrap CSS  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!--bootstrap JS  -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- HTML Credit Code for Can Stock Photo -->
+  <!-- <a href="http://www.canstockphoto.com">(c) Can Stock Photo / zerominusone</a> -->
+</body>
+</html>
