@@ -3,7 +3,7 @@ Web application that uses a bot to pre-qualify users for a spinal cord injury re
 
 Link to website deployed site: [http://therabot.azurewebsites.net/](http://therabot.azurewebsites.net/)
 
-
+![alt text](https://github.com/bradefting/TheraBot/blob/master/images/TheraBot.png?raw=true)
 
 ### Features
 
@@ -14,6 +14,6 @@ Link to website deployed site: [http://therabot.azurewebsites.net/](http://thera
 2. **Azure App Services & Facebook Messenger:** Used to deploy bot online.
 3. **Bootstrap:** Used to create the front-end design.
 4. **jQuery:** Used for functionality of the application.
-5. **Waffle.io: ** Project management software used to create, prioritize, and track stories throughout app development.
+5. **Waffle.io:** Project management software used to create, prioritize, and track stories throughout app development.
 
 Video walkthrough of the app: [https://www.youtube.com/watch?v=vWmQPOAuPQs](https://www.youtube.com/watch?v=vWmQPOAuPQs)
